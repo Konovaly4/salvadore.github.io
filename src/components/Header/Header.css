@@ -1,0 +1,42 @@
+.header {
+  margin: 0 auto;
+  width: 1440px;
+  height: 100px;
+  background-color: rgb(102,51,102);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header__logo {
+  margin: 38px 90px 0 90px;
+}
+
+.header__text {
+  font-size: 20px;
+  font-weight: normal;
+  /* line-height: 12px; */
+  color: #fff
+}
+
+.header__text_worktime {
+  margin: 45px 100px 0 0;
+}
+
+.header__text_address {
+  margin: 45px 100px 0 0;
+}
+
+.header__phone {
+  margin: 40px 72px 0 0;
+  font-size: 28px;
+  font-weight: normal;
+  /* line-height: 14px; */
+  color: #fff
+}
+
+.header__link {
+  margin: 40px 0 0 0;
+  width: 30px;
+  height: 30px;
+}
