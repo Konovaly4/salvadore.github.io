@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import logoPath from '../Images/logo.png';
-import logoIgPath from '../Images/logo_ig.svg';
+import logoPath from '../../Images/logo.png';
+import logoIgPath from '../../Images/logo_ig.svg';
 
 function Header() {
 
