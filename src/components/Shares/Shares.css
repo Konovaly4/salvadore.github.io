@@ -10,5 +10,59 @@
 }
 
 .shares__picture {
-  
+ margin: 16px 50px 16px 90px; 
+ padding: 0;
+ width: 360px;
+ height: 167px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ align-items: center;
+ position: relative;
+}
+
+.shares__img {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.shaers__img-annotation {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  font-size: 45px;
+  line-height: 54px;
+  color: #4F426A;
+}
+
+.shares__description {
+  width: 355px;
+  margin-right: 118px;
+  padding: 0;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.shares__logo {
+  margin: 0;
+  padding: 0;
+  width: 405px;
+  height: 117px;
+  background-image: url('../../Images/action-cloud.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shares__logo-annotation {
+  margin: 0;
+  padding: 0;
+  font-size: 57px;
+  color: #fff;
 }
