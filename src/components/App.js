@@ -5,6 +5,8 @@ import Main from './Main/Main';
 import Shares from './Shares/Shares';
 import Pricing from './Pricing/Pricing'
 import pricingData from '../data/pricingData';
+import Team from './Team/Team';
+import teamData from '../data/teamData';
 import './App.css';
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
     <Main />
     <Shares />
     <Pricing data={pricingData} />
+    <Team data={teamData} />
   </div>  
   );
 }
