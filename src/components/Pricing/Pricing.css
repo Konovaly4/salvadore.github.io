@@ -1,0 +1,51 @@
+.pricing {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pricing__title {
+  margin: 44px auto 45px;
+  font-size: 40px;
+  line-height: 52px;
+  color: #4F426A;
+}
+
+.pricing__container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__service {
+  margin: 0 9px 0 0;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+
+.pricing__service:last-of-type {
+  margin: 0;
+}
+
+.prising__pic {
+  margin: 0 auto 17px;
+}
+
+.pricing__name {
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
+  color: #4F426A;
+  text-align: center;
+}
