@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f4c8c84.chunk.css",
+    "main.js": "/static/js/main.7c2a12c5.chunk.js",
+    "main.js.map": "/static/js/main.7c2a12c5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d523b245.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d523b245.js.map",
+    "static/js/2.6f39a633.chunk.js": "/static/js/2.6f39a633.chunk.js",
+    "static/js/2.6f39a633.chunk.js.map": "/static/js/2.6f39a633.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4b48a10efbfe274c39d267b103df5daa.js": "/precache-manifest.4b48a10efbfe274c39d267b103df5daa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f4c8c84.chunk.css.map": "/static/css/main.5f4c8c84.chunk.css.map",
+    "static/js/2.6f39a633.chunk.js.LICENSE.txt": "/static/js/2.6f39a633.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Robotothinitalic.d48c130d.woff",
+    "static/media/Shares.css": "/static/media/action-cloud.ec579b38.png",
+    "static/media/action-eyes.jpg": "/static/media/action-eyes.f8e50b3e.jpg",
+    "static/media/barber.png": "/static/media/barber.b6b1daa6.png",
+    "static/media/epil.png": "/static/media/epil.20ae77b6.png",
+    "static/media/Feedback.css": "/static/media/feedback-bg-3.d4382c94.png",
+    "static/media/lash&brow.png": "/static/media/lash&brow.be41bc18.png",
+    "static/media/logo_ig.svg": "/static/media/logo_ig.bb600ed7.svg",
+    "static/media/Main.css": "/static/media/main-bg.3c24452d.jpg",
+    "static/media/main-logo.png": "/static/media/main-logo.7017d9d4.png",
+    "static/media/nails.png": "/static/media/nails.0871d1b8.png",
+    "static/media/solar.png": "/static/media/solar.9c395a78.png",
+    "static/media/Team.css": "/static/media/team-pic-bg-2.8949f58f.png",
+    "static/media/Игорь.png": "/static/media/Игорь.7590090d.png",
+    "static/media/Марина.png": "/static/media/Марина.a2e91a41.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d523b245.js",
+    "static/js/2.6f39a633.chunk.js",
+    "static/css/main.5f4c8c84.chunk.css",
+    "static/js/main.7c2a12c5.chunk.js"
+  ]
+}
