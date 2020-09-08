@@ -7,6 +7,9 @@ import Pricing from './Pricing/Pricing'
 import pricingData from '../data/pricingData';
 import Team from './Team/Team';
 import teamData from '../data/teamData';
+import photoData from '../data/photoData';
+import Feedback from './Feedback/Feedback';
+import feedbackData from '../data/feedbackData';
 import './App.css';
 
 function App() {
@@ -17,7 +20,8 @@ function App() {
     <Main />
     <Shares />
     <Pricing data={pricingData} />
-    <Team data={teamData} />
+    <Team data={teamData} photo={photoData} />
+    <Feedback data={feedbackData} />
   </div>  
   );
 }

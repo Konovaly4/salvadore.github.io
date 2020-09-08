@@ -1,4 +1,5 @@
 import React from 'react';
+import WorkPhoto from '../WorkPhoto/WorkPhoto';
 import './Team.css';
 
 const Team = (props) => {
@@ -13,7 +14,7 @@ const Team = (props) => {
       <h2 className="team__title">Наши специалисты</h2>
       <div className="team__members-container">
         {props.data.slice(memberNum, memberNum + 2).map((item, num) => (
-          <div className="team__member">
+          <div key={num} className="team__member">
             <div className="team__member-data">
               <h3 className="team__member-name">{item.name}</h3>
               <p className="team__member-job">{item.job}</p>
@@ -25,7 +26,7 @@ const Team = (props) => {
           </div>
         ))}
       </div>
-      <h2 className="team__title">Фото работ</h2>
+      <WorkPhoto data={props.photo} />
     </div> 
   )
 }
