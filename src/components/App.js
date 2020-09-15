@@ -10,6 +10,7 @@ import teamData from '../data/teamData';
 import photoData from '../data/photoData';
 import Feedback from './Feedback/Feedback';
 import feedbackData from '../data/feedbackData';
+import Contacts from './Contacts/Contacts';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Pricing data={pricingData} />
     <Team data={teamData} photo={photoData} />
     <Feedback data={feedbackData} />
+    <Contacts />
   </div>  
   );
 }
