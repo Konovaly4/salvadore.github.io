@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/salvadore.github.io/static/css/main.41ceb4c0.chunk.css",
-    "main.js": "/salvadore.github.io/static/js/main.a0e8ac6b.chunk.js",
-    "main.js.map": "/salvadore.github.io/static/js/main.a0e8ac6b.chunk.js.map",
+    "main.css": "/salvadore.github.io/static/css/main.cb851d6f.chunk.css",
+    "main.js": "/salvadore.github.io/static/js/main.ff0dcf56.chunk.js",
+    "main.js.map": "/salvadore.github.io/static/js/main.ff0dcf56.chunk.js.map",
     "runtime-main.js": "/salvadore.github.io/static/js/runtime-main.68055ea0.js",
     "runtime-main.js.map": "/salvadore.github.io/static/js/runtime-main.68055ea0.js.map",
     "static/js/2.b50a0b77.chunk.js": "/salvadore.github.io/static/js/2.b50a0b77.chunk.js",
     "static/js/2.b50a0b77.chunk.js.map": "/salvadore.github.io/static/js/2.b50a0b77.chunk.js.map",
     "index.html": "/salvadore.github.io/index.html",
-    "precache-manifest.237a73f00b44fa9412134334ccc58527.js": "/salvadore.github.io/precache-manifest.237a73f00b44fa9412134334ccc58527.js",
+    "precache-manifest.19b7b95960411706a56a105b3f54bf03.js": "/salvadore.github.io/precache-manifest.19b7b95960411706a56a105b3f54bf03.js",
     "service-worker.js": "/salvadore.github.io/service-worker.js",
-    "static/css/main.41ceb4c0.chunk.css.map": "/salvadore.github.io/static/css/main.41ceb4c0.chunk.css.map",
+    "static/css/main.cb851d6f.chunk.css.map": "/salvadore.github.io/static/css/main.cb851d6f.chunk.css.map",
     "static/js/2.b50a0b77.chunk.js.LICENSE.txt": "/salvadore.github.io/static/js/2.b50a0b77.chunk.js.LICENSE.txt",
     "static/media/index.css": "/salvadore.github.io/static/media/Robotothinitalic.d48c130d.woff",
     "static/media/Shares.css": "/salvadore.github.io/static/media/action-cloud.ec579b38.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.68055ea0.js",
     "static/js/2.b50a0b77.chunk.js",
-    "static/css/main.41ceb4c0.chunk.css",
-    "static/js/main.a0e8ac6b.chunk.js"
+    "static/css/main.cb851d6f.chunk.css",
+    "static/js/main.ff0dcf56.chunk.js"
   ]
 }
