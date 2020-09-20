@@ -4,7 +4,7 @@ import './Feedback.css';
 const Feedback = (props) => {
   const data = props.data.length <=3 ? props.data : props.data.slice(0, 3);
   return (
-    <div className="feedback">
+    <section className="feedback">
       <h2 className="feedback__title">Отзывы</h2>
       <ul className="feedback__container">
         {data.map((item, num) => (
@@ -20,7 +20,7 @@ const Feedback = (props) => {
         ))}
       </ul>
       <button className="feedback__button">Оставить отзыв</button>
-    </div>
+    </section>
   )
 }
 

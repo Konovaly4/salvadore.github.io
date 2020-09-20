@@ -5,13 +5,13 @@ import './Contacts.css';
 
 const Contacts = () => {
   return (
-    <div className="contacts">
-      <div className="contacts__header">
+    <section className="contacts">
+      <header className="contacts__header">
         <p className="contacts__title">Контакты</p>
-      </div>
+      </header>
       <div className="contacts__container">
         <img className="contacts__map" src={mapPath} alt="map" />
-        <div className="contacts__data">
+        <article className="contacts__data">
           <img className="contacts__main-logo" src={mainLogoPath} alt="main-logo" />
           <div className="contacts__data-container">
             <div className="contacts__icon contacts__icon_place" />
@@ -29,9 +29,9 @@ const Contacts = () => {
             <div className="contacts__icon contacts__icon_instagram" />
             <p className="contacts__description contacts__description_time-link">salon_salvadore</p>
           </div>
-        </div>
+        </article>
       </div>
-    </div>
+    </section>
   )
 }
 

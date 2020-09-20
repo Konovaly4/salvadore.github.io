@@ -53,10 +53,10 @@
 .feedback__item {
   margin: 0;
   width: 310px;
-  height: 306px;
+  height: 310px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 

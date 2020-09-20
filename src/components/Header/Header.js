@@ -6,7 +6,7 @@ import logoIgPath from '../../Images/logo_ig.svg';
 function Header() {
 
   return (
-    <div className="header">
+    <header className="header">
       <img className="header__logo" src={logoPath} alt="logo" />
       <p className="header__text header__text_worktime">10:00 - 21:00</p>
       <p className="header__text header__text_address">ул. Воронцовская, д.19А, стр.1</p>
@@ -14,7 +14,7 @@ function Header() {
       <a className="header__link" href="https://www.instagram.com/?hl=ru">
         <img src={logoIgPath} alt="logo-instagram" />
       </a>
-    </div>
+    </header>
   )
 }
 

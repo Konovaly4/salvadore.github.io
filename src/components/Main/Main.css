@@ -11,6 +11,8 @@
 }
 
 .main__logo {
+  width: 429px;
+  height: 542px;
   margin: 0 155px 0 180px;
 }
 
@@ -66,4 +68,44 @@
   font-weight: normal;
   line-height: 24px;
   color: #4F426A;
+}
+
+@media screen and (max-width: 1279px) {
+  .main__logo {
+    margin: 0 100px 0 120px;
+  }
+
+  .main__subtitle {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .main__item {
+    font-size: 15px;
+    line-height: 20px;
+
+  }
+  
+}
+
+@media screen and (max-width: 1023px) {
+  .main__logo {
+    width: 300px;
+    height: 379px;
+    /* margin: 0 20px 0 40px; */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main__logo {
+    margin: 0 20px 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+}
+
+@media screen and (max-width: 320px) {
+  
 }

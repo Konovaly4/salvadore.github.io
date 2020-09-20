@@ -5,7 +5,7 @@ import './Main.css';
 function Main () {
 
   return (
-    <div className="main">
+    <section className="main">
       <img className="main__logo" src={mainLogoPath} alt="salvadore-logo" />
       <div className="main__info">
         <button className="main__button">Онлайн запись</button>
@@ -20,7 +20,7 @@ function Main () {
           <li className="main__item">Всегда сохраняя приятные цены для Вас</li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar(props) {
 
   return (
-    <div className={props.theme !== 'dark' ? 'navbar' : 'navbar navbar_dark'}>
+    <nav className={props.theme !== 'dark' ? 'navbar' : 'navbar navbar_dark'}>
       <ul className="navbar__list">
         <li className="navbar__item">Услуги и цены</li>
         <li className={props.theme !== 'dark' ? 'navbar__item navbar__dot' : 'navbar__item navbar__dot navbar__dot_dark'}></li>
@@ -18,7 +18,7 @@ function Navbar(props) {
         <li className={props.theme !== 'dark' ? 'navbar__item navbar__dot' : 'navbar__item navbar__dot navbar__dot_dark'}></li>
         <li className="navbar__item">Контакты</li>
       </ul>
-    </div>
+    </nav>
   )
 }
 

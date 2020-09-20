@@ -16,7 +16,6 @@
   width: 100%;
   margin: 0;
   padding: 0 90px;
-  list-style-type: disc;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,4 +39,40 @@
 
 .navbar__dot_dark {
   background-color: #8B88C6;
+}
+
+@media screen and (max-width: 1279px) {
+  .navbar__list {
+    padding: 0 70px;
+   }
+  
+  .navbar__item {
+    font-size: 20px;
+    line-height: 9px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar__list {
+    padding: 0 35px;
+   }
+  
+  .navbar__item {
+    font-size: 18px;
+    line-height: 7px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar__list {
+    padding: 0 20px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
