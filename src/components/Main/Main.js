@@ -1,5 +1,6 @@
 import React from 'react';
-import mainLogoPath from '../../Images/main-logo.png'
+import RecordButton from '../RecordButton/RecordButton';
+import mainLogoPath from '../../Images/main-logo.png';
 import './Main.css';
 
 function Main () {
@@ -8,7 +9,7 @@ function Main () {
     <section className="main">
       <img className="main__logo" src={mainLogoPath} alt="salvadore-logo" />
       <div className="main__info">
-        <button className="main__button">Онлайн запись</button>
+        <RecordButton buttonPlace="main__button" />
         <h2 className="main__title">О салоне</h2>
         <p className="main__subtitle">
         В нашем салоне Вы получите не только высочайшее качество обслуживания и широкий спектр услуг, но сможете расслабиться и получить позитивный заряд.

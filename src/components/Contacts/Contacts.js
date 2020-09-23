@@ -1,4 +1,5 @@
 import React from 'react';
+import RecordButton from '../RecordButton/RecordButton';
 import mapPath from '../../Images/contacts/map.png';
 import mainLogoPath from '../../Images/contacts/logo-dark.png';
 import './Contacts.css';
@@ -17,7 +18,7 @@ const Contacts = () => {
             <div className="contacts__icon contacts__icon_place" />
             <p className="contacts__description contacts__description_adress">ул. Воронцовская, д.19А, стр.1</p>
             <div className="contacts__icon" />
-            <p className="contacts__description contacts__description_adress">метро<div className="contacts__subway contacts__subway_taganskaya" />Таганская</p> 
+            <p className="contacts__description contacts__description_adress">метро<div className="contacts__subway contacts__subway_taganskaya" />Таганская</p>
             <div className="contacts__icon" />
             <p className="contacts__description contacts__description_adress"><div className="contacts__subway contacts__subway_marksistskaya" />Марксистская</p>
             <div className="contacts__icon" />
@@ -29,6 +30,7 @@ const Contacts = () => {
             <div className="contacts__icon contacts__icon_instagram" />
             <p className="contacts__description contacts__description_time-link">salon_salvadore</p>
           </div>
+          <RecordButton buttonPlace="contacts__button" />
         </article>
       </div>
     </section>
