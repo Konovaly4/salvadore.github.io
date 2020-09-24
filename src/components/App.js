@@ -15,7 +15,7 @@ import './App.css';
 
 function App() {
   return (
-  <div className="app">
+  <main className="app">
     <Header theme="light" />
     <Navbar />
     <Main />
@@ -25,7 +25,7 @@ function App() {
     <Feedback data={feedbackData} />
     <Contacts />
     <Navbar theme="dark" />
-  </div>  
+  </main>
   );
 }
 
