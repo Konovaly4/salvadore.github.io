@@ -6,7 +6,7 @@ import './Navbar.css';
 function Navbar(props) {
 
   return (
-    <nav className={props.theme !== 'dark' ? 'navbar' : 'navbar navbar_dark'}>
+    <nav className={'navbar' + (props.theme === 'dark' ? ' navbar__dark' : '') + (!props.visibility ? '' : ' navbar__visible')}>
       <img className="navbar__logo" src={logoPath} alt="logo" />
       <RecordButton buttonPlace="navbar__button" />
       <ul className="navbar__list">

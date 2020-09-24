@@ -14,10 +14,15 @@ import Contacts from './Contacts/Contacts';
 import './App.css';
 
 function App() {
+  const [appearance, setAppearance] = React.useState(false);
+
+  const buttonAppear = () => setAppearance(true);
+  const buttonDisappear = () => setAppearance(false);
+
   return (
-  <main className="app">
-    <Header theme="light" />
-    <Navbar />
+  <main className="app" onClick={buttonDisappear}>
+    <Header onButtonAppear={buttonAppear} />
+    <Navbar visibility={appearance} />
     <Main />
     <Shares />
     <Pricing data={pricingData} />
