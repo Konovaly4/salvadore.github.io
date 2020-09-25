@@ -8,7 +8,7 @@ function Navbar(props) {
   return (
     <nav className={'navbar' + (props.theme === 'dark' ? ' navbar__dark' : '') + (!props.visibility ? '' : ' navbar__visible')}>
       <img className="navbar__logo" src={logoPath} alt="logo" />
-      <RecordButton buttonPlace="navbar__button" />
+      {/* <RecordButton buttonPlace="navbar__button" /> */}
       <ul className="navbar__list">
         <li className="navbar__item">Услуги и цены</li>
         <li className={props.theme !== 'dark' ? 'navbar__item navbar__dot' : 'navbar__item navbar__dot navbar__dot_dark'}></li>

@@ -30,7 +30,7 @@ const Contacts = () => {
             <div className="contacts__icon contacts__icon_instagram" />
             <p className="contacts__description contacts__description_time-link">salon_salvadore</p>
           </div>
-          <RecordButton buttonPlace="contacts__button" />
+          {/* <RecordButton buttonPlace="contacts__button" /> */}
         </article>
       </div>
     </section>

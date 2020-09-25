@@ -9,7 +9,7 @@ function Main () {
     <section className="main">
       <img className="main__logo" src={mainLogoPath} alt="salvadore-logo" />
       <article className="main__info">
-        <RecordButton buttonPlace="main__button" />
+        {/* <RecordButton buttonPlace="main__button" /> */}
         <h2 className="main__title">О салоне</h2>
         <p className="main__subtitle">
         В нашем салоне Вы получите не только высочайшее качество обслуживания и широкий спектр услуг, но сможете расслабиться и получить позитивный заряд.

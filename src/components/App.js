@@ -1,4 +1,5 @@
 import React from 'react';
+import RecordButton from './RecordButton/RecordButton';
 import Header from './Header/Header';
 import Navbar from './Navbar/Navbar';
 import Main from './Main/Main';
@@ -27,6 +28,7 @@ function App() {
 
   return (
   <main className="app" onClick={appearance ? buttonDisappear : undefined}>
+    <RecordButton />
     <Header onButtonAppear={buttonAppear} />
     <Navbar visibility={appearance} />
     <Main />
