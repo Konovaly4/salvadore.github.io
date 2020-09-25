@@ -8,7 +8,7 @@ function Main () {
   return (
     <section className="main">
       <img className="main__logo" src={mainLogoPath} alt="salvadore-logo" />
-      <div className="main__info">
+      <article className="main__info">
         <RecordButton buttonPlace="main__button" />
         <h2 className="main__title">О салоне</h2>
         <p className="main__subtitle">
@@ -20,7 +20,7 @@ function Main () {
           <li className="main__item">Делаем максимум для Вашей безопасности</li>
           <li className="main__item">Всегда сохраняя приятные цены для Вас</li>
         </ul>
-      </div>
+      </article>
     </section>
   )
 }
