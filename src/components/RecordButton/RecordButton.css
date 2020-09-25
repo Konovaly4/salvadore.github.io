@@ -12,11 +12,7 @@
   position: fixed;
   top: 30%;
   left: 20px;
-}
-
-.main__button {
-  align-self: flex-end;
-  margin: 40px 90px 35px 0;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1023px) {

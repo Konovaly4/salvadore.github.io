@@ -19,23 +19,20 @@
 .pricing__container {
   margin: 0;
   padding: 0;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .pricing__service {
-  margin: 0 9px 0 0;
+  margin: 0;
   width: 190px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   list-style-type: none;
-}
-
-.pricing__service:last-of-type {
-  margin: 0;
 }
 
 .prising__pic {
@@ -48,4 +45,29 @@
   line-height: 30px;
   color: #4F426A;
   text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .pricing__name {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pricing__name {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pricing__name {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
 }
