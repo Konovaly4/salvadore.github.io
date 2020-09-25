@@ -12,10 +12,6 @@
   background-color: #4F426A;
 }
 
-.navbar__visible {
-  display: flex;
-}
-
 .navbar__logo {
   /* margin: 0 0 20px 0; */
   width: 160px;
@@ -92,6 +88,10 @@
     left: 20px;
     z-index: 1;
     display: none;
+  }
+
+  .navbar__visible {
+    display: flex;
   }
 
   .navbar_dark {

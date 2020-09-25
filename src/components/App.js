@@ -16,11 +16,17 @@ import './App.css';
 function App() {
   const [appearance, setAppearance] = React.useState(false);
 
-  const buttonAppear = () => setAppearance(true);
-  const buttonDisappear = () => setAppearance(false);
+  const buttonAppear = (e) => {
+    e.preventDefault();
+    setAppearance(true);
+  }
+
+  const buttonDisappear = (e) => {
+     if (!e.target.className.includes('navbar')) setAppearance(false);
+  }
 
   return (
-  <main className="app" onClick={buttonDisappear}>
+  <main className="app" onClick={appearance ? buttonDisappear : undefined}>
     <Header onButtonAppear={buttonAppear} />
     <Navbar visibility={appearance} />
     <Main />
