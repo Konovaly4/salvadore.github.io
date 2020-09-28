@@ -11,8 +11,37 @@
   background-size: cover;
 }
 
-.team__title {
+.team__header {
   margin: 25px auto 32px;
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team__header-button {
+  margin: 0;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #4F426A;
+}
+
+.team__header-button_left {
+  clip-path: polygon(0% 25%, 25% 25%, 25% 0%, 100% 50%, 25% 100%, 25% 75%, 0% 75%);
+}
+
+.team__header-button_right {
+  clip-path: polygon(0% 50%, 75% 0%, 75% 25%, 100% 25%, 100% 75%, 75% 75%, 75% 100%);
+}
+
+.team__header-button:hover {
+  transform: scale(1.2);
+}
+
+.team__title {
+  margin: 0;
   font-size: 40px;
   line-height: 52px;
   color: #4F426A;

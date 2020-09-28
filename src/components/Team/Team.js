@@ -11,7 +11,11 @@ const Team = (props) => {
 
   return (
     <section className="team">
-      <h2 className="team__title">Наши специалисты</h2>
+      <header className="team__header">
+        <button className="team__header-button team__header-button_left" />
+        <h2 className="team__title">Наши специалисты</h2>
+        <button className="team__header-button team__header-button_right" />
+      </header>
       <div className="team__members-container">
         {props.data.slice(memberNum, memberNum + 2).map((item, num) => (
           <article key={num} className="team__member">
