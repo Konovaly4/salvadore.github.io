@@ -10,24 +10,24 @@ const Team = (props) => {
   }
 
   return (
-    <div className="team">
+    <section className="team">
       <h2 className="team__title">Наши специалисты</h2>
       <div className="team__members-container">
         {props.data.slice(memberNum, memberNum + 2).map((item, num) => (
-          <div key={num} className="team__member">
+          <article key={num} className="team__member">
             <div className="team__member-data">
               <h3 className="team__member-name">{item.name}</h3>
               <p className="team__member-job">{item.job}</p>
-              <div className={num === 0 ? 'team__member-bg team__member-bg_left' : 'team__member-bg team__member-bg_right'}>
+              <div className={(num === 0 || (num % 2 === 0)) ? 'team__member-bg team__member-bg_one' : 'team__member-bg team__member-bg_two'}>
                 <img className="team__member-pic" alt={item.pictureAlt} src={item.src} />
               </div>
             </div>
             <p className="team__member-description">{item.description}</p>
-          </div>
+          </article>
         ))}
       </div>
       <WorkPhoto data={props.photo} />
-    </div> 
+    </section>
   )
 }
 

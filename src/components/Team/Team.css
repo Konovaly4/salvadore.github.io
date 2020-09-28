@@ -27,21 +27,21 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start ;
 }
 
 .team__member {
   margin: 0;
   padding: 0;
-  width: 680px;
+  max-width: 680px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.team__member:nth-of-type(2) {
+/* .team__member:nth-of-type(2) {
   border-left: 3px solid #4F426A;
-}
+} */
 
 .team__member-data {
   margin: 0 16px 0 0;
@@ -72,20 +72,17 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
 }
 
-.team__member-bg_left {
+.team__member-bg_one {
   background-image: url('../../Images/team-pic-bg-1.png');
-  background-size: 250px 250px;
-  background-position: bottom left;
-  background-repeat: no-repeat;
 }
 
-.team__member-bg_right {
+.team__member-bg_two {
   background-image: url('../../Images/team-pic-bg-2.png');
-  background-size: 250px 250px;
-  background-position: bottom left;
-  background-repeat: no-repeat;
 }
 
 .team__member-pic {
@@ -94,4 +91,97 @@
   height: 250px;
   border: 9px solid #fff;
   border-radius: 50%;
+}
+
+.team__member-description {
+  margin: 0 25px 0 0;
+  font-size: 18px;
+  line-height: 21px;
+  color:#4F426A;
+}
+
+@media screen and (max-width: 1279px) {
+  .team__member-bg {
+    width: 222px;
+    height: 247px;
+  }
+
+  .team__member-pic {
+    width: 192px;
+    height: 192px;
+    border: 5px solid #fff;
+  }
+
+  .team__member-description {
+    margin: 0 15px 0 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .team__members-container {
+    width: 1024px;
+    overflow: hidden;
+  }
+
+  .team__member-description {
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team__members-container {
+    width: 100%;
+  }
+
+  .team__member {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team__member-description {
+    max-width:350px ;
+    margin: 0 10px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  .team__title {
+    margin: 21px auto;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .team__member-name {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .team__member-job {
+    margin: 0 auto 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .team__members-container {
+    width: 480px;
+  }
+
+  .team__member-description {
+    width: 90%;
+    margin:0;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
 }
