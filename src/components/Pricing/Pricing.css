@@ -9,11 +9,28 @@
   align-items: center;
 }
 
+.pricing__header {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .pricing__title {
   margin: 44px auto 45px;
   font-size: 40px;
   line-height: 52px;
   color: #4F426A;
+}
+
+.pricing__arrow {
+  background-color: #E48EEE;
+}
+
+.pricing__arrow_inactive {
+  background-color: transparent;
 }
 
 .pricing__container {
