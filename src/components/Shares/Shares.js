@@ -1,5 +1,5 @@
 import React from 'react';
-import sharesImgPaht from '../../Images/action-eyes.jpg';
+import sharesData from '../../data/sharesData';
 import './Shares.css';
 
 function Shares () {
@@ -7,10 +7,10 @@ function Shares () {
   return (
     <div className="shares">
       <div className="shares__picture">
-        <img className="shares__img" src={sharesImgPaht} alt="shares" />
-        <p className="shaers__img-annotation">classic</p>
+        <img className="shares__img" src={sharesData.image} alt="shares" />
+        <p className="shaers__img-annotation">{sharesData.annotation}</p>
       </div>
-      <p className="shares__description">НАРАЩИВАНИЕ РЕСНИЦ 1500р</p>
+      <p className="shares__description">{sharesData.name}</p>
       <div className="shares__logo">
         <p className="shares__logo-annotation">АКЦИЯ</p>
       </div>
