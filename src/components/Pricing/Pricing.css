@@ -36,7 +36,10 @@
 }
 
 .prising__pic {
+  display: block;
   margin: 0 auto 17px;
+  width: 100px;
+  height: 105px;
 }
 
 .pricing__name {
@@ -55,13 +58,36 @@
 }
 
 @media screen and (max-width: 767px) {
+  .pricing__service {
+    margin: 0;
+    width: 90px;
+  }
+  
+  .prising__pic {
+    width: 75px;
+    height: 80px;
+  }
+
   .pricing__name {
     font-size: 15px;
     line-height: 20px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
+.pricing__container {
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+  .pricing__service {
+    margin-right: 30px;
+  }
+
+  .pricing__service:last-of-type {
+    margin: 0;
+  }
+  
   .pricing__name {
     font-size: 11px;
     line-height: 13px;
