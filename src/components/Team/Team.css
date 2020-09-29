@@ -20,24 +20,12 @@
   align-items: center;
 }
 
-.team__header-button {
-  margin: 0;
-  border: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #4F426A;
+.team__arrow {
+  background-color: #E48EEE;
 }
 
-.team__header-button_left {
-  clip-path: polygon(0% 25%, 25% 25%, 25% 0%, 100% 50%, 25% 100%, 25% 75%, 0% 75%);
-}
-
-.team__header-button_right {
-  clip-path: polygon(0% 50%, 75% 0%, 75% 25%, 100% 25%, 100% 75%, 75% 75%, 75% 100%);
-}
-
-.team__header-button:hover {
-  transform: scale(1.2);
+.team__arrow_inactive {
+  background-color: transparent;
 }
 
 .team__title {
@@ -162,6 +150,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .team__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
   .team__members-container {
     width: 100%;
   }
