@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/salvadore.github.io/static/css/main.043e15b1.chunk.css",
-    "main.js": "/salvadore.github.io/static/js/main.6751cece.chunk.js",
-    "main.js.map": "/salvadore.github.io/static/js/main.6751cece.chunk.js.map",
+    "main.css": "/salvadore.github.io/static/css/main.38cb14fb.chunk.css",
+    "main.js": "/salvadore.github.io/static/js/main.c31da494.chunk.js",
+    "main.js.map": "/salvadore.github.io/static/js/main.c31da494.chunk.js.map",
     "runtime-main.js": "/salvadore.github.io/static/js/runtime-main.68055ea0.js",
     "runtime-main.js.map": "/salvadore.github.io/static/js/runtime-main.68055ea0.js.map",
-    "static/js/2.5d26b018.chunk.js": "/salvadore.github.io/static/js/2.5d26b018.chunk.js",
-    "static/js/2.5d26b018.chunk.js.map": "/salvadore.github.io/static/js/2.5d26b018.chunk.js.map",
+    "static/js/2.82cf5b73.chunk.js": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js",
+    "static/js/2.82cf5b73.chunk.js.map": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js.map",
     "index.html": "/salvadore.github.io/index.html",
-    "precache-manifest.a36a61e74a9aef9d58153a1ce6ee40be.js": "/salvadore.github.io/precache-manifest.a36a61e74a9aef9d58153a1ce6ee40be.js",
+    "precache-manifest.8584f2f1be5c97ad212e48517399f1e4.js": "/salvadore.github.io/precache-manifest.8584f2f1be5c97ad212e48517399f1e4.js",
     "service-worker.js": "/salvadore.github.io/service-worker.js",
-    "static/css/main.043e15b1.chunk.css.map": "/salvadore.github.io/static/css/main.043e15b1.chunk.css.map",
-    "static/js/2.5d26b018.chunk.js.LICENSE.txt": "/salvadore.github.io/static/js/2.5d26b018.chunk.js.LICENSE.txt",
+    "static/css/main.38cb14fb.chunk.css.map": "/salvadore.github.io/static/css/main.38cb14fb.chunk.css.map",
+    "static/js/2.82cf5b73.chunk.js.LICENSE.txt": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js.LICENSE.txt",
     "static/media/index.css": "/salvadore.github.io/static/media/Robotothinitalic.d48c130d.woff",
     "static/media/Shares.css": "/salvadore.github.io/static/media/action-cloud.ec579b38.png",
     "static/media/action-eyes.jpg": "/salvadore.github.io/static/media/action-eyes.f8e50b3e.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.68055ea0.js",
-    "static/js/2.5d26b018.chunk.js",
-    "static/css/main.043e15b1.chunk.css",
-    "static/js/main.6751cece.chunk.js"
+    "static/js/2.82cf5b73.chunk.js",
+    "static/css/main.38cb14fb.chunk.css",
+    "static/js/main.c31da494.chunk.js"
   ]
 }
