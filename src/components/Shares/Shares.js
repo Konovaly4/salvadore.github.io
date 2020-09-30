@@ -5,7 +5,7 @@ import './Shares.css';
 function Shares () {
 
   return (
-    <div className="shares">
+    <section className="shares">
       <div className="shares__picture">
         <img className="shares__img" src={sharesData.image} alt="shares" />
         <p className="shaers__img-annotation">{sharesData.annotation}</p>
@@ -14,7 +14,7 @@ function Shares () {
       <div className="shares__logo">
         <p className="shares__logo-annotation">АКЦИЯ</p>
       </div>
-    </div>
+    </section>
   )
 }
 
