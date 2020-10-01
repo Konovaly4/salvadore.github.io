@@ -181,6 +181,11 @@
     line-height: 20px;
   }
 
+  .team__members-container {
+    max-width: 480px;
+    justify-content: flex-start;
+  }
+
   .team__member-name {
     font-size: 15px;
     line-height: 23px;
@@ -190,10 +195,6 @@
     margin: 0 auto 10px;
     font-size: 12px;
     line-height: 20px;
-  }
-
-  .team__members-container {
-    width: 480px;
   }
 
   .team__member-description {
