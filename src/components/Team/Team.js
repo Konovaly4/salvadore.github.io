@@ -7,12 +7,10 @@ const Team = (props) => {
   const [memberNum, setMemberNum] = React.useState(0);
 
   const setPrevousMembers = () => {
-    console.log('-click');
     setMemberNum(memberNum - 1);
   }
 
   const setNextMembers = () => {
-    console.log('+click');
     setMemberNum(memberNum + 1);
   }
 
