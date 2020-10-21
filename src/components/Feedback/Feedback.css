@@ -13,13 +13,14 @@
   margin: 0;
   padding: 0;
   width: 90%;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .feedback__title {
-  margin: 40px auto 20px;
+  margin: 0;
   font-size: 40px;
   color: #4F426A;
 }
@@ -124,6 +125,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .feedback__header {
+    height: 75px;
+  }
+
   .feedback__container {
     width: 1120px;
   }
@@ -172,6 +177,10 @@
 }
 
   @media screen and (max-width: 320px) {
+    .feedback__header {
+      height: 50px;
+    }
+
     .feedback__title {
       font-size: 15px;
     }
