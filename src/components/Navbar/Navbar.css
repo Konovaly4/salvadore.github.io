@@ -8,8 +8,9 @@
   align-items: center;
 }
 
-.navbar_dark {
+.navbar__dark {
   background-color: #4F426A;
+  position: relative;
 }
 
 .navbar__logo {
@@ -90,16 +91,26 @@
     display: none;
   }
 
+  .navbar__dark {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
   .navbar__visible {
     display: flex;
   }
 
-  .navbar_dark {
-    display: none;
-  }
-
   .navbar__logo {
     display: block;
+  }
+
+  .navbar__logo_dark {
+    margin-left: 20px; 
   }
 
   .navbar__list {
@@ -109,6 +120,10 @@
     height: 180px;
     justify-content: space-around;
     align-items: flex-start;
+  }
+
+  .navbar__list_dark {
+    margin-left: 20px; 
   }
 
   .navbar__item {

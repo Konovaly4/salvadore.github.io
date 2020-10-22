@@ -8,6 +8,7 @@
   align-items: center;
   background-image: url('../../Images/team-bg.png');
   background-size: cover;
+  overflow: hidden;
 }
 
 .team__header {

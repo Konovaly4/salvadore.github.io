@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  overflow: hidden;
 }
 
 .work-photo__header {
@@ -68,6 +67,7 @@
 
   .work-photo__container {
     min-width: 900px;
+    overflow: hidden;
   }
 
   .work-photo-img {

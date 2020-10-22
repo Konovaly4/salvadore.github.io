@@ -83,6 +83,7 @@
 @media screen and (max-width: 767px) {
   .pricing {
     align-items: flex-start;
+    overflow: hidden;
   }
 
   .pricing__header {
@@ -93,7 +94,6 @@
     width: 665px;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow: hidden;
   }
 
   .pricing__name {
