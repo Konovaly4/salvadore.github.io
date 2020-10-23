@@ -18,9 +18,9 @@ const Contacts = () => {
             <div className="contacts__icon contacts__icon_place" />
             <p className="contacts__description contacts__description_adress">ул. Воронцовская, д.19А, стр.1</p>
             <div className="contacts__icon" />
-            <p className="contacts__description contacts__description_adress">метро<div className="contacts__subway contacts__subway_taganskaya" />Таганская</p>
+            <p className="contacts__description contacts__description_adress">метро<span className="contacts__subway contacts__subway_taganskaya" />Таганская</p>
             <div className="contacts__icon" />
-            <p className="contacts__description contacts__description_adress">метро<div className="contacts__subway contacts__subway_marksistskaya" />Марксистская</p>
+            <p className="contacts__description contacts__description_adress">метро<span className="contacts__subway contacts__subway_marksistskaya" />Марксистская</p>
             <div className="contacts__icon" />
             <p className="contacts__description contacts__description_adress contacts__description_adress_last"> находимся в здании клиники «Семейный доктор»</p>
             <div className="contacts__icon contacts__icon_phone" />

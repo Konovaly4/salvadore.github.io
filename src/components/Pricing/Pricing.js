@@ -7,18 +7,18 @@ const Pricing = (props) => {
   // let translateCounter = 0;
   let minContainerWidth = 665;
   let windowWidth = document.documentElement.clientWidth;
-  console.log(windowWidth)
   const [transformation, setTransformation] = React.useState(0);
-  let containerStyle = `transform: translateX(-${transformation})`;
+  let containerStyle = `transform: translateX(${transformation}px)`;
+  console.log(containerStyle);
 
   const rightSlider = () => {
+    if ((Math.abs(transformation) + windowWidth) === minContainerWidth) return;
     if (windowWidth >= (minContainerWidth/2)) {
-      setTransformation(minContainerWidth - windowWidth);
-    } else  { if ((minContainerWidth - (transformation + windowWidth)) < windowWidth) {
-      setTransformation(minContainerWidth - (transformation + windowWidth));
-      } else {
-        setTransformation(windowWidth);
-      }
+      setTransformation(windowWidth - minContainerWidth);
+    } else if (windowWidth > (minContainerWidth - (Math.abs(transformation) + windowWidth))) {
+      setTransformation((Math.abs(transformation) + windowWidth) - minContainerWidth);
+    } else {
+      setTransformation(0 - windowWidth);
     }
   }
 
