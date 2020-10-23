@@ -1,18 +1,32 @@
 import React from 'react';
+import SearchArrow from '../SearchArrow/SearchArrow';
 import './WorkPhoto.css';
  
 const WorkPhoto = (props) => {
-  const data = props.data.length <= 8 ? props.data : props.data.slice(0, 8)
+  const [photoNum, setPhotoNum] = React.useState(0);
+
+  const setPrevousPhoto = () => {
+    setPhotoNum(photoNum - 1)
+  };
+
+  const setNextPhoto = () => {
+    setPhotoNum(photoNum + 1)
+  };
+
   return (
-    <div className="work-photo">
-      <h2 className="work-photo__title">Фото работ</h2>
+    <section className="work-photo">
+      <header className="work-photo__header">
+        <SearchArrow elemName="team__arrow" direction="left" onClick={setPrevousPhoto} active={photoNum !== 0 ? 'true' : 'false'} />
+        <h2 className="work-photo__title">Фото работ</h2>
+        <SearchArrow elemName="team__arrow" direction="right" onClick={setNextPhoto} active={photoNum < props.data.length - 1 ? 'true' : 'false'} />
+      </header>
       <div className="work-photo__container">
-        {data.map((item, num) => (
+        {props.data.slice(photoNum, photoNum + 4).map((item, num) => (
             <img key={num} className="work-photo-img" src={item.src} alt={item.alt} />
           ))
         }
       </div>
-    </div>
+    </section>
   )
 }
 
