@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "397848bcd1441362ce0c502bac45e87c",
+    "revision": "1d098c4c0b3337662a761726bbb21de7",
     "url": "/salvadore.github.io/index.html"
   },
   {
-    "revision": "6b69d07bd6fae891f7dc",
-    "url": "/salvadore.github.io/static/css/main.9e47b512.chunk.css"
+    "revision": "186d2cd556aa9be0c5d3",
+    "url": "/salvadore.github.io/static/css/main.392a0e3e.chunk.css"
   },
   {
     "revision": "e1942fd35e03b8e73629",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b69d07bd6fae891f7dc",
-    "url": "/salvadore.github.io/static/js/main.b0a9eb2e.chunk.js"
+    "revision": "186d2cd556aa9be0c5d3",
+    "url": "/salvadore.github.io/static/js/main.95d58f71.chunk.js"
   },
   {
     "revision": "063bb5515dbb2ba449e8",
@@ -96,12 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/salvadore.github.io/static/media/feedback-bg-1.81159bf5.png"
   },
   {
-    "revision": "1b5de09b5a0f305ca00ff624f433cbcd",
-    "url": "/salvadore.github.io/static/media/feedback-bg-2.1b5de09b.png"
-  },
-  {
     "revision": "d4382c94631f74aca0bd42e669d63be8",
-    "url": "/salvadore.github.io/static/media/feedback-bg-3.d4382c94.png"
+    "url": "/salvadore.github.io/static/media/feedback-bg-2.d4382c94.png"
   },
   {
     "revision": "be41bc18f4289ce4ebfd3d5f36610764",

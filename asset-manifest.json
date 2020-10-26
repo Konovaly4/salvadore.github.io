@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/salvadore.github.io/static/css/main.9e47b512.chunk.css",
-    "main.js": "/salvadore.github.io/static/js/main.b0a9eb2e.chunk.js",
-    "main.js.map": "/salvadore.github.io/static/js/main.b0a9eb2e.chunk.js.map",
+    "main.css": "/salvadore.github.io/static/css/main.392a0e3e.chunk.css",
+    "main.js": "/salvadore.github.io/static/js/main.95d58f71.chunk.js",
+    "main.js.map": "/salvadore.github.io/static/js/main.95d58f71.chunk.js.map",
     "runtime-main.js": "/salvadore.github.io/static/js/runtime-main.68055ea0.js",
     "runtime-main.js.map": "/salvadore.github.io/static/js/runtime-main.68055ea0.js.map",
     "static/js/2.82cf5b73.chunk.js": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js",
     "static/js/2.82cf5b73.chunk.js.map": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js.map",
     "index.html": "/salvadore.github.io/index.html",
-    "precache-manifest.1fe17af9c0db3a9214ed51b4c51d3b15.js": "/salvadore.github.io/precache-manifest.1fe17af9c0db3a9214ed51b4c51d3b15.js",
+    "precache-manifest.1d4802dede76d416f00982352658b753.js": "/salvadore.github.io/precache-manifest.1d4802dede76d416f00982352658b753.js",
     "service-worker.js": "/salvadore.github.io/service-worker.js",
-    "static/css/main.9e47b512.chunk.css.map": "/salvadore.github.io/static/css/main.9e47b512.chunk.css.map",
+    "static/css/main.392a0e3e.chunk.css.map": "/salvadore.github.io/static/css/main.392a0e3e.chunk.css.map",
     "static/js/2.82cf5b73.chunk.js.LICENSE.txt": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js.LICENSE.txt",
     "static/media/index.css": "/salvadore.github.io/static/media/Robotothinitalic.d48c130d.woff",
     "static/media/Shares.css": "/salvadore.github.io/static/media/action-cloud.ec579b38.png",
@@ -18,7 +18,7 @@
     "static/media/barber.png": "/salvadore.github.io/static/media/barber.b6b1daa6.png",
     "static/media/Contacts.css": "/salvadore.github.io/static/media/contacts-bg.525be1bb.png",
     "static/media/epil.png": "/salvadore.github.io/static/media/epil.20ae77b6.png",
-    "static/media/Feedback.css": "/salvadore.github.io/static/media/feedback-bg-3.d4382c94.png",
+    "static/media/Feedback.css": "/salvadore.github.io/static/media/feedback-bg-2.d4382c94.png",
     "static/media/lash&brow.png": "/salvadore.github.io/static/media/lash&brow.be41bc18.png",
     "static/media/logo_ig.svg": "/salvadore.github.io/static/media/logo_ig.bb600ed7.svg",
     "static/media/Main.css": "/salvadore.github.io/static/media/main-bg.3c24452d.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.68055ea0.js",
     "static/js/2.82cf5b73.chunk.js",
-    "static/css/main.9e47b512.chunk.css",
-    "static/js/main.b0a9eb2e.chunk.js"
+    "static/css/main.392a0e3e.chunk.css",
+    "static/js/main.95d58f71.chunk.js"
   ]
 }
