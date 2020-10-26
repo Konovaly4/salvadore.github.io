@@ -1,10 +1,10 @@
 import React from 'react'
 import './RecordButton.css';
 
-const RecordButton = (props) => {
+const RecordButton = () => {
 
   return (
-    <button className={'button '+ props.buttonPlace}>Онлайн запись</button>
+    <button className="button">Онлайн запись</button>
   )
 
 }

@@ -22,9 +22,7 @@ const Feedback = (props) => {
       </header>  
       <ul className="feedback__container">
         {props.data.slice(feedbackNum, feedbackNum + 3).map((item, num) => (
-          <li key={num} className={num === 0 ?
-           'feedback__item-bg feedback__item-bg_first' : 
-           num === 1 ? 'feedback__item-bg feedback__item-bg_second' : 'feedback__item-bg feedback__item-bg_third'}>
+          <li key={num} className={num === 0 || num%2 === 0 ? 'feedback__item-bg feedback__item-bg_first' : 'feedback__item-bg feedback__item-bg_second'}>
             <div className="feedback__item">
               <article className="feedback__article">{item.article}</article>
               <div className="feedback__src-container">

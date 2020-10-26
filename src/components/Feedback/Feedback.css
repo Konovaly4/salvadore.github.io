@@ -54,11 +54,6 @@
   background-image: url('../../Images/feedback-bg-2.png');
 }
 
-.feedback__item-bg_third {
-  background-image: url('../../Images/feedback-bg-3.png');
-}
-
-
 .feedback__item {
   margin: 0;
   width: 83%;

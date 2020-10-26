@@ -7,11 +7,11 @@
 }
 
 .search-arrow_left {
-  clip-path: polygon(0% 50%, 75% 0%, 75% 25%, 100% 25%, 100% 75%, 75% 75%, 75% 100%);
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
 }
 
 .search-arrow_right {
-  clip-path: polygon(0% 25%, 25% 25%, 25% 0%, 100% 50%, 25% 100%, 25% 75%, 0% 75%);
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
 }
 
 /* .search-arrow__inactive {

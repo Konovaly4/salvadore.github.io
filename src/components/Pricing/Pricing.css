@@ -51,6 +51,7 @@
 }
 
 .prising__pic {
+  display: block;
   margin: 0 auto 17px;
   width: 98px;
   height: 105px;
