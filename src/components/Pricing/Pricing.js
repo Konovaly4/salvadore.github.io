@@ -4,11 +4,12 @@ import SearchArrow from '../SearchArrow/SearchArrow';
 import './Pricing.css';
 
 const Pricing = (props) => {
-  // let translateCounter = 0;
   let minContainerWidth = 665;
   let windowWidth = document.documentElement.clientWidth;
   const [transformation, setTransformation] = React.useState(0);
-  let containerStyle = `transform: translateX(${transformation}px)`;
+  const containerStyle = {
+    transform: `translateX(${transformation}px)`,
+  };
   console.log(containerStyle);
 
   const rightSlider = () => {
@@ -41,7 +42,7 @@ const Pricing = (props) => {
         <h2 className="pricing__title">Услуги и цены</h2>
         <SearchArrow elemName="team__arrow" direction="right" active="true" onClick={rightSlider} />
       </header>
-      <ul className="pricing__container" style={{containerStyle}}>
+      <ul className="pricing__container" style={containerStyle}>
         {props.data.map((item, num) => (
             <li key={num} className="pricing__service">
               <img className="prising__pic" alt={item.pictureAlt} src={item.src} />
