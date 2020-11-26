@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d098c4c0b3337662a761726bbb21de7",
+    "revision": "c5ab086a3ee6f35cae2fa0ab663581af",
     "url": "/salvadore.github.io/index.html"
   },
   {
-    "revision": "186d2cd556aa9be0c5d3",
-    "url": "/salvadore.github.io/static/css/main.392a0e3e.chunk.css"
+    "revision": "0c3da3fdc72e218fa602",
+    "url": "/salvadore.github.io/static/css/main.ba0445b0.chunk.css"
   },
   {
-    "revision": "e1942fd35e03b8e73629",
-    "url": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js"
+    "revision": "0b07ab7ca2cf48b61ce1",
+    "url": "/salvadore.github.io/static/js/2.2d505612.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/salvadore.github.io/static/js/2.82cf5b73.chunk.js.LICENSE.txt"
+    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
+    "url": "/salvadore.github.io/static/js/2.2d505612.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "186d2cd556aa9be0c5d3",
-    "url": "/salvadore.github.io/static/js/main.95d58f71.chunk.js"
+    "revision": "0c3da3fdc72e218fa602",
+    "url": "/salvadore.github.io/static/js/main.7bc71b5b.chunk.js"
   },
   {
     "revision": "063bb5515dbb2ba449e8",
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/salvadore.github.io/static/media/action-eyes.f8e50b3e.jpg"
   },
   {
+    "revision": "e1bb3eb5341760355b0ee3b5fd004eb7",
+    "url": "/salvadore.github.io/static/media/arrow button.e1bb3eb5.svg"
+  },
+  {
     "revision": "b6b1daa6d9a7b6fbe7d15155fa927acd",
     "url": "/salvadore.github.io/static/media/barber.b6b1daa6.png"
   },
@@ -98,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d4382c94631f74aca0bd42e669d63be8",
     "url": "/salvadore.github.io/static/media/feedback-bg-2.d4382c94.png"
+  },
+  {
+    "revision": "53029072ab1efc798ba07a02366a671b",
+    "url": "/salvadore.github.io/static/media/header button.53029072.svg"
   },
   {
     "revision": "be41bc18f4289ce4ebfd3d5f36610764",
