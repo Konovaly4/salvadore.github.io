@@ -53,8 +53,13 @@
   background-position: bottom left;
 }
 
-.contacts__main-logo {
+.contacts__main-link {
   margin: 70px auto;
+}
+
+.contacts__main-logo {
+  margin: 0;
+  object-fit: contain;
 }
 
 .contacts__data-container {
@@ -142,8 +147,13 @@ background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1023px) {
-  .contacts__main-logo {
+  .contacts__main-link {
     margin: 18px auto;
+    width: 160px;
+    height: 24px;
+  }
+
+  .contacts__main-logo {
     width: 160px;
     height: 24px;
   }

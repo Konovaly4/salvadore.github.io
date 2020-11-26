@@ -1,19 +1,22 @@
 import React from 'react';
-import RecordButton from '../RecordButton/RecordButton';
+// import RecordButton from '../RecordButton/RecordButton';
 import mapPath from '../../Images/contacts/map.png';
 import mainLogoPath from '../../Images/contacts/logo-dark.png';
 import './Contacts.css';
 
 const Contacts = () => {
   return (
-    <section className="contacts">
+    <section className="contacts" name="contacts">
+      <a name="contacts" />
       <header className="contacts__header">
         <p className="contacts__title">Контакты</p>
       </header>
       <div className="contacts__container">
         <img className="contacts__map" src={mapPath} alt="map" />
         <article className="contacts__data">
-          <img className="contacts__main-logo" src={mainLogoPath} alt="main-logo" />
+          <a className='contacts__main-link' href='#top'>
+            <img className="contacts__main-logo" src={mainLogoPath} alt="main-logo" />
+          </a>
           <div className="contacts__data-container">
             <div className="contacts__icon contacts__icon_place" />
             <p className="contacts__description contacts__description_adress">ул. Воронцовская, д.19А, стр.1</p>

@@ -2,36 +2,47 @@
   margin: 0;
   border: 0;
   outline: 0;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url('../../Images/UI/arrow\ button.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.search-arrow_active {
+  opacity: .5;
 }
 
 .search-arrow_left {
-  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  transform: rotate(-90deg);
 }
 
 .search-arrow_right {
-  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  transform: rotate(90deg);
 }
 
 /* .search-arrow__inactive {
   background-color: #BBB8BC;
 } */
 
-.search-arrow:hover {
-  transform: scale(1.2);
+.search-arrow_active:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
   .search-arrow {
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .search-arrow {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
   }
 }

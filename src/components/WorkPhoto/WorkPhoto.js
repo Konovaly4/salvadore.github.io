@@ -15,10 +15,11 @@ const WorkPhoto = (props) => {
 
   return (
     <section className="work-photo">
+      <a name='work-photo' />
       <header className="work-photo__header">
-        <SearchArrow elemName="team__arrow" direction="left" onClick={setPrevousPhoto} active={photoNum !== 0 ? 'true' : 'false'} />
+        <SearchArrow elemName="team__arrow" direction="left" onClick={setPrevousPhoto} active={photoNum !== 0 ? true : false} />
         <h2 className="work-photo__title">Фото работ</h2>
-        <SearchArrow elemName="team__arrow" direction="right" onClick={setNextPhoto} active={photoNum < props.data.length - 1 ? 'true' : 'false'} />
+        <SearchArrow elemName="team__arrow" direction="right" onClick={setNextPhoto} active={photoNum < props.data.length - 1 ? true : false} />
       </header>
       <div className="work-photo__container">
         {props.data.slice(photoNum, photoNum + 4).map((item, num) => (

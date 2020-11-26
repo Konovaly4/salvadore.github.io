@@ -16,6 +16,7 @@ import './App.css';
 
 function App() {
   const [appearance, setAppearance] = React.useState(false);
+  const [windowWidth, setWindowWidth] = React.useState(document.documentElement.clientWidth);
 
   const buttonAppear = (e) => {
     e.preventDefault();
@@ -26,14 +27,16 @@ function App() {
      if (!e.target.className.includes('navbar')) setAppearance(false);
   }
 
+  window.addEventListener('resize', () => setWindowWidth(document.documentElement.clientWidth));
+
   return (
   <main className="app" onClick={appearance ? buttonDisappear : undefined}>
     <RecordButton />
     <Header onButtonAppear={buttonAppear} />
-    <Navbar visibility={appearance} />
+    <Navbar visibility={appearance} theme="light" />
     <Main />
     <Shares />
-    <Pricing data={pricingData} />
+    <Pricing data={pricingData} windowWidth={windowWidth} />
     <Team data={teamData} photo={photoData} />
     <Feedback data={feedbackData} />
     <Contacts />

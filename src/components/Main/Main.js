@@ -1,5 +1,5 @@
 import React from 'react';
-import RecordButton from '../RecordButton/RecordButton';
+// import RecordButton from '../RecordButton/RecordButton';
 import mainLogoPath from '../../Images/main-logo.png';
 import './Main.css';
 
@@ -15,10 +15,10 @@ function Main () {
         В нашем салоне Вы получите не только высочайшее качество обслуживания и широкий спектр услуг, но сможете расслабиться и получить позитивный заряд.
         </p>
         <ul className="main__list">
-          <li className="main__item">У нас работает сильная команда мастеров-профессионалов</li>
-          <li className="main__item">Мы работаем качественными материалами</li>
-          <li className="main__item">Делаем максимум для Вашей безопасности</li>
-          <li className="main__item">Всегда сохраняя приятные цены для Вас</li>
+          <li key='1' className="main__item">У нас работает сильная команда мастеров-профессионалов</li>
+          <li key='2' className="main__item">Мы работаем качественными материалами</li>
+          <li key='3' className="main__item">Делаем максимум для Вашей безопасности</li>
+          <li key='4' className="main__item">Всегда сохраняя приятные цены для Вас</li>
         </ul>
       </article>
     </section>

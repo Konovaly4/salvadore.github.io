@@ -6,6 +6,7 @@ function Shares () {
 
   return (
     <section className="shares">
+      <a name="shares" />
       <div className="shares__picture">
         <img className="shares__img" src={sharesData.image} alt="shares" />
         <p className="shaers__img-annotation">{sharesData.annotation}</p>

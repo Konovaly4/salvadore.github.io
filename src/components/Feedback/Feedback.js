@@ -1,4 +1,5 @@
 import React from 'react';
+import cn from 'classnames';
 import SearchArrow from '../SearchArrow/SearchArrow';
 import './Feedback.css';
 
@@ -15,14 +16,18 @@ const Feedback = (props) => {
 
   return (
     <section className="feedback">
+      <a name='feedback'/>
       <header className="feedback__header">
-        <SearchArrow elemName="team__arrow" direction="left" onClick={setPrevousFeedback} active={feedbackNum !== 0 ? 'true' : 'false'} />
+        <SearchArrow elemName="team__arrow" direction="left" onClick={setPrevousFeedback} active={feedbackNum !== 0 ? true : false} />
         <h2 className="feedback__title">Отзывы</h2>
-        <SearchArrow elemName="team__arrow" direction="right" onClick={setNextFeedack} active={feedbackNum < props.data.length - 1 ? 'true' : 'false'}  />
+        <SearchArrow elemName="team__arrow" direction="right" onClick={setNextFeedack} active={feedbackNum < props.data.length - 1 ? true : false}  />
       </header>  
       <ul className="feedback__container">
         {props.data.slice(feedbackNum, feedbackNum + 3).map((item, num) => (
-          <li key={num} className={num === 0 || num%2 === 0 ? 'feedback__item-bg feedback__item-bg_first' : 'feedback__item-bg feedback__item-bg_second'}>
+          <li key={num} className={cn('feedback__item-bg', {
+            'feedback__item-bg_first': num === 0 || num%2 === 0,
+            'feedback__item-bg_second': num !== 0 || num%2 !== 0,
+          })}>
             <div className="feedback__item">
               <article className="feedback__article">{item.article}</article>
               <div className="feedback__src-container">

@@ -18,11 +18,16 @@
   margin: 0;
   border: 0;
   border-radius: 50%;
-  background-image: url('../../Images/header-button.png');
+  background-image: url('../../Images/UI/header\ button.svg');
   background-position: center;
   background-size: 105%;
   background-repeat: no-repeat;
+  opacity: .8;
   display: none;
+}
+
+.header__nav-button:hover {
+  opacity: 1;
 }
 
 .header__main-info {
