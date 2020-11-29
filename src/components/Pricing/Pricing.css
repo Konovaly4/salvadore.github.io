@@ -50,6 +50,10 @@
   list-style-type: none;
 }
 
+.pricing__service:hover {
+  cursor: pointer;
+}
+
 .prising__pic {
   display: block;
   margin: 0 auto 17px;
