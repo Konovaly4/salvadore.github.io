@@ -1,9 +1,12 @@
 import React from 'react';
 import SearchArrow from '../SearchArrow/SearchArrow';
+import PhotoPopup from './PhotoPopup/PhotoPopup';
 import './WorkPhoto.css';
  
-const WorkPhoto = (props) => {
+const WorkPhoto = props => {
   const [photoNum, setPhotoNum] = React.useState(0);
+  const [activeItem, setActiveItem] = React.useState(undefined);
+  const [popupVisibility, setPopupVisibility] = React.useState(false);
 
   const setPrevousPhoto = () => {
     setPhotoNum(photoNum - 1)
@@ -12,6 +15,13 @@ const WorkPhoto = (props) => {
   const setNextPhoto = () => {
     setPhotoNum(photoNum + 1)
   };
+
+  const setPicture = (e) => {
+    setActiveItem(props.data.find((item) => {
+      return item.id === e.target.id;
+    }));
+    setPopupVisibility(true);
+  }
 
   return (
     <section className="work-photo">
@@ -23,10 +33,11 @@ const WorkPhoto = (props) => {
       </header>
       <div className="work-photo__container">
         {props.data.slice(photoNum, photoNum + 4).map((item, num) => (
-            <img key={num} className="work-photo-img" src={item.src} alt={item.alt} />
+            <img key={num} id={item.id} className="work-photo-img" src={item.src} alt={item.alt} onClick={setPicture} />
           ))
         }
       </div>
+      {activeItem !== undefined && <PhotoPopup item={activeItem} visibility={popupVisibility} setVisibility={setPopupVisibility} />}
     </section>
   )
 }

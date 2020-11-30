@@ -1,15 +1,15 @@
 import React from 'react';
 import SearchArrow from '../SearchArrow/SearchArrow';
-import PricingPopup from '../PricingPopup/PricingPopup';
-// import pricingPicPath from '../../Images/';
+import PricingPopup from './PricingPopup/PricingPopup';
 import './Pricing.css';
 
 const Pricing = (props) => {
+  const [popupVisibility, setPopupVisibility] = React.useState(false);
+  const [activeItem, setItem] = React.useState(undefined);
+
   const minContainerWidth = 665;
   const minItemWidth = 133;
   const [transformation, setTransformation] = React.useState(0);
-  const [selectedItem, setItem] = React.useState(undefined);
-  const [popupVisibility, setPopupVisibility] = React.useState(false);
 
   let containerStyle = {
     transform: `translateX(${transformation}px)`,
@@ -33,20 +33,9 @@ const Pricing = (props) => {
       }
   }
 
-  const visibilityToggle = () => {
-    if (popupVisibility) {setItem(undefined)};
-    setPopupVisibility(!popupVisibility);
-  }
-
   const setActiveItem = (e) => {
-    console.log('item - ' + props.data[e.target.closest('.pricing__service').id])
-    console.log('item services - ' + props.data[e.target.closest('.pricing__service').id].services)
-    console.log('item services 1 - ' + props.data[e.target.closest('.pricing__service').id].services[0].name)
-    console.log('data - ' + props.data)
-    console.log('e.target - ' + e.target.closest('.pricing__service').id)
     setItem(props.data[e.target.closest('.pricing__service').id]);
-    console.log('sel.item - ' + selectedItem)
-    // visibilityToggle();
+    setPopupVisibility(true);
   }
 
   return (
@@ -71,7 +60,7 @@ const Pricing = (props) => {
             </li>
         ))}
       </ul>
-      <PricingPopup item={selectedItem}  visibility={popupVisibility} setVisibility={visibilityToggle} />
+      {activeItem !== undefined && <PricingPopup item={activeItem} popupVisibility={popupVisibility} setVisibility={setPopupVisibility} />}
     </section>
   )
 }
