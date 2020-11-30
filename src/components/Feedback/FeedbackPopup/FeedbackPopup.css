@@ -18,7 +18,8 @@
 .feedback-popup {
   margin: 0;
   padding: 20px 50px 20px 20px;
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   min-height: 150px;
   border: 2px solid #A29FD1;
   border-radius: 20px;
@@ -61,10 +62,4 @@
   font-size: 20px;
   line-height: 23px;
   color: #000000;
-}
-
-@media screen and (max-width: 700px) {
-  .photo-popup {
-    width: 100%;
-  }
 }

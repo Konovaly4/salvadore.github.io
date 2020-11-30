@@ -16,8 +16,8 @@ const PricingPopup = props => {
 
   return (
     <div 
-      className={cn('pricing-popup__blur', {
-        'pricing-popup__blur_active': props.popupVisibility,
+      className={cn('pricing-popup__overlay', {
+        'pricing-popup__overlay_active': props.popupVisibility,
       })} 
       onClick={popupCloseByOverlay} >
         <article className='pricing-popup'>

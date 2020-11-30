@@ -24,6 +24,7 @@ const FeedbackPopup = props => {
       </div>       
     </div>
   )
+
 }
 
 export default FeedbackPopup;
