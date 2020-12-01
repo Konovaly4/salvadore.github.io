@@ -1,6 +1,7 @@
 import React from 'react';
 import cn from 'classnames';
 import FeedbackPopup from './FeedbackPopup/FeedbackPopup';
+import FeedbackForm from './FeedbackForm/FeedbackForm';
 import SearchArrow from '../SearchArrow/SearchArrow';
 import './Feedback.css';
 
@@ -8,6 +9,7 @@ const Feedback = (props) => {
   const [feedbackNum, setFeedbackNum] = React.useState(0);
   const [activeItem, setActiveItem] = React.useState(undefined);
   const [popupVisibility, setPopupVisibility] = React.useState(false);
+  const [formVisibility, setFormVisibility] = React.useState(false);
 
   const setPrevousFeedback = () => {
     setFeedbackNum(feedbackNum - 1);
@@ -22,6 +24,10 @@ const Feedback = (props) => {
       return item.id === e.target.closest('.feedback__item-bg').id;
     }));
     setPopupVisibility(true);
+  }
+
+  const formOpen = () => {
+    setFormVisibility(true);
   }
 
   return (
@@ -48,8 +54,9 @@ const Feedback = (props) => {
           </li>
         ))}
       </ul>
-      <button className="feedback__button">Оставить отзыв</button>
+      <button className="feedback__button" onClick={formOpen} >Оставить отзыв</button>
       {activeItem !== undefined && <FeedbackPopup item={activeItem} visibility={popupVisibility} setVisibility={setPopupVisibility} />}
+      {!!formVisibility && <FeedbackForm visibility={formVisibility} setVisibility={setFormVisibility} />}
     </section>
   )
 }
